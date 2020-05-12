@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int a,V,S;
+printf("a=");
+scanf("%d",&a);
+V=pow(a,3);
+S=6*pow(a,2);
+printf("V=%d\n",V);
+printf("S=%d\n",S);
+return 0;
+}

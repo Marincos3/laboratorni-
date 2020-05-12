@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+
+{
+    int x,y,z,f;
+do
+{
+        printf("x = ");
+        scanf("%d",&x);
+        printf("y = ");
+        scanf("%d",&y);
+        printf("z = ");
+        scanf("%d",&z);
+        f=sqrt(pow(x,2)*y-14*z);
+        if(f<0)
+        {
+        printf("Помилка\n%d",f);
+        printf("\nНапишіть число щоб в результаті не вивело менше нуля\n");
+        }
+        else
+        {
+            printf("%d",f);
+        }
+}       while(f<0);
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h> 
+int main()  
+{
+    int y,z;
+    float t;
+    printf("y=");
+    scanf("%d", &y);
+    printf( "z=");
+     scanf("%d", &z);
+    t=sqrt(3*(y/(z-2*y)))-y*z;
+    printf("%g",t);
+  
+    
+}

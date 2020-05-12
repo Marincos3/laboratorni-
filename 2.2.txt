@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h> 
+int main()  
+{
+    int a,b,c,y ;
+    printf("à=");
+    scanf("%d", &a);
+    printf("b=");
+     scanf("%d", &b);
+       printf("c=");
+     scanf("%d", &c);
+   y=a=4*b-(pow(c,2))/(2*a*b*c);
+    printf("%d",y);
+    
+}

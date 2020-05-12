@@ -1,0 +1,19 @@
+﻿#include <stdio.h>
+#include <locale.h>
+#include <math.h> 
+int main()  
+{
+    int a,b,C,M,N,X,V ;
+    printf("Перше ціле число а=");
+    scanf("%d", &a);
+    printf("Друге ціле число b=");
+     scanf("%d", &b);
+    C= ceil(a/b);
+    X=a+b;
+    V=a-b;
+    M=pow(a+b,2);
+    N=X*V;
+    printf("C\tM\tN\n");
+    printf("%d\t%d\t%d" ,C,M,N);
+    
+}
